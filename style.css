@@ -1,0 +1,176 @@
+/* ── General ── */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+}
+
+/* ── Colors ── */
+.text-orange { color: #E8681A; }
+.section-light  { background-color: #f8f7f5; }
+.section-dark   { background-color: #1a1a1a; }
+.section-orange { background-color: #E8681A; }
+
+/* ── Headings ── */
+.section-heading {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+}
+
+.orange-hr {
+  border: none;
+  border-top: 4px solid #E8681A;
+  width: 60px;
+  margin: 0.5rem 0 1.5rem 0;
+  opacity: 1;
+}
+
+.white-hr {
+  border: none;
+  border-top: 4px solid white;
+  width: 60px;
+  margin: 0.5rem 0 1.5rem 0;
+  opacity: 1;
+}
+
+/* ── Hero ── */
+.hero-section {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d1a0a 100%);
+}
+
+.event-tag {
+  display: inline-block;
+  background-color: #E8681A;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.fw-black { font-weight: 900; }
+
+.poster-hero {
+  max-width: 320px;
+  width: 100%;
+}
+
+/* ── Info strip ── */
+.info-strip {
+  background-color: #E8681A;
+}
+
+/* ── Buttons ── */
+.btn-orange {
+  background-color: #E8681A;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+.btn-orange:hover {
+  background-color: #d05a10;
+  color: white;
+}
+
+/* ── SDG Box ── */
+.sdg-box {
+  background-color: #E8681A;
+  color: white;
+}
+.sdg-number {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Team cards ── */
+.team-flag { font-size: 2rem; }
+
+.team-card {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  transition: border-color 0.2s;
+}
+.team-card:hover {
+  border-color: #E8681A;
+}
+
+/* ── Activity steps ── */
+.activity-steps {
+  padding-left: 1.2rem;
+}
+.activity-steps li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.prize-box {
+  background-color: #fff4ec;
+  border: 2px solid #E8681A;
+  font-size: 0.95rem;
+}
+
+/* ── Map flow ── */
+.map-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.map-step {
+  background-color: #f0ece8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+}
+.map-step.highlight {
+  background-color: #E8681A;
+  color: white;
+  border-color: #E8681A;
+}
+.map-arrow {
+  text-align: center;
+  color: #E8681A;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* ── Emergency box ── */
+.emergency-box {
+  background-color: #e8f5ee;
+  border: 1px solid #4caf7d;
+  font-size: 0.95rem;
+}
+
+/* ── Poster display ── */
+.poster-display {
+  max-width: 380px;
+  width: 100%;
+}
+
+/* ── Eval info ── */
+.eval-info {
+  background-color: #fff4ec;
+  border: 2px solid #E8681A;
+  height: 100%;
+}
+
+/* ── Sustainability cards ── */
+.sust-card {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+}
+.sust-icon { font-size: 2.5rem; }
+
+/* ── Contact cards ── */
+.contact-card {
+  background-color: #f8f7f5;
+  border: 1px solid #e0ddd9;
+  transition: border-color 0.2s;
+}
+.contact-card:hover {
+  border-color: #E8681A;
+}
